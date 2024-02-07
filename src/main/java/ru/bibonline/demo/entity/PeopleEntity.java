@@ -7,7 +7,7 @@ import lombok.*;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@RequiredArgsConstructor
+
 @Table(name = "people")
 
 public class PeopleEntity {
@@ -20,7 +20,7 @@ public class PeopleEntity {
     private String surname;          //Фамилия
     private String gender;           //пол
     private String requirements;     //требования
-    private String aboutMe;          //пол
+    private String aboutMe;          //о себе
     private String numRegistration;  //регистрационный номер
 
 }
